@@ -98,7 +98,13 @@
   background: rgb(29,29,29);
   border-radius: 10px;
   padding: 40px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+.dark .section-container {
+  background: rgb(29,29,29);; /* Latar belakang hitam untuk mode gelap */
+  color: white; /* Teks berwarna putih untuk mode gelap */
+  box-shadow: 0 10px 25px rgba(0,0,0,1);
 }
 
 .section-title h2 {
